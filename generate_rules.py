@@ -51,6 +51,10 @@ DEVICES = [
     # Microsoft® Nano Transceiver v2.0
     ('045e', '0800'),
 
+    ('046d', 'c30a'),  # Logitech, Inc. iTouch Composite keboard
+
+    ('04d9', 'a0df'),  # Tek Syndicate Mouse (E-Signal USB Gaming Mouse)
+
     # List of Wacom devices at: http://linuxwacom.sourceforge.net/wiki/index.php/Device_IDs
     ('056a', '0010'),  # Wacom ET-0405 Graphire
     ('056a', '0011'),  # Wacom ET-0405A Graphire2 (4x5)
@@ -60,13 +64,13 @@ DEVICES = [
     ('056a', '0015'),  # Wacom CTE-440 Graphire4 (4x5)
     ('056a', '0016'),  # Wacom CTE-640 Graphire4 (6x8)
     ('056a', '0017'),  # Wacom CTE-450 Bamboo Fun (4x5)
-    ('056a', '0016'),  # Wacom CTE-640 Graphire 4 6x8
-    ('056a', '0017'),  # Wacom CTE-450 Bamboo Fun 4x5
     ('056a', '0018'),  # Wacom CTE-650 Bamboo Fun 6x8
     ('056a', '0019'),  # Wacom CTE-631 Bamboo One
     ('056a', '00d1'),  # Wacom Bamboo Pen and Touch CTH-460
+    ('056a', '030e'),  # Wacom Intuos Pen (S) CTL-480
 
     ('09da', '054f'),  # A4 Tech Co., G7 750 mouse
+    ('09da', '1410'),  # A4 Tech Co., Ltd Bloody AL9 mouse
     ('09da', '3043'),  # A4 Tech Co., Ltd Bloody R8A Gaming Mouse
     ('09da', '31b5'),  # A4 Tech Co., Ltd Bloody TL80 Terminator Laser Gaming Mouse
     ('09da', '3997'),  # A4 Tech Co., Ltd Bloody RT7 Terminator Wireless
@@ -76,6 +80,7 @@ DEVICES = [
     ('09da', '7b22'),  # A4 Tech Co., Ltd Bloody V5
     ('09da', '7f2d'),  # A4 Tech Co., Ltd Bloody R3 mouse
     ('09da', '8090'),  # A4 Tech Co., Ltd X-718BK Oscar Optical Gaming Mouse
+    ('09da', '9033'),  # A4 Tech Co., X7 X-705K
     ('09da', '9066'),  # A4 Tech Co., Sharkoon Fireglider Optical
     ('09da', '9090'),  # A4 Tech Co., Ltd XL-730K / XL-750BK / XL-755BK Laser Mouse
     ('09da', '90c0'),  # A4 Tech Co., Ltd X7 G800V keyboard
@@ -83,6 +88,8 @@ DEVICES = [
     ('09da', 'f32a'),  # A4 Tech Co., Ltd Bloody B540 keyboard
     ('09da', 'f613'),  # A4 Tech Co., Ltd Bloody V2 mouse
     ('09da', 'f624'),  # A4 Tech Co., Ltd Bloody B120 Keyboard
+
+    ('1b1c', '1b3c'),  # Corsair Harpoon RGB gaming mouse
 
     ('1d57', 'ad03'),  # [T3] 2.4GHz and IR Air Mouse Remote Control
 
